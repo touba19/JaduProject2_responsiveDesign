@@ -1,0 +1,144 @@
+body{
+    font-family: 'Spartan', sans-serif;
+    font-size: 14px;
+}
+.flexContainer1, .flexContainer2{
+    margin: 40px 140px 5px 140px;
+    display: flex;
+    
+}
+.flexContainer1 .coloumn{
+    width: 50%;
+    padding: 30px;
+}
+h1{
+    color: hsl(300, 43%, 22%);
+    font-size: 42px;
+    line-height: 1.1cm;
+}
+#customerService{
+    line-height: 0.6cm;
+    color: hsl(303, 10%, 53%);
+    font-weight: 400;
+}
+.rating{
+    height: auto;
+    width: 70%;
+    font-size: 11px;
+    background-color: hsl(300, 24%, 96%);
+    padding: 15px;
+    margin: 15px;
+    border-radius: 4%;
+}
+.star1{
+    margin-left: 10px;
+    margin-right: 3px;
+}
+.star2,.star3,.star4{
+    margin-right: 3px;
+}
+.star5{
+    margin-right: 15px;
+}
+.review{
+    color: hsl(300, 60%, 18%);
+    font-weight: 700;
+}
+#rate1{
+    margin-right: 30px;
+}
+#rate2{
+    margin-left: 40px;
+}
+#rate3{
+    margin-left: 60px;
+}
+.flexContainer2 .coloumn{
+    width: 30%;
+    height: 170px;
+    padding: 30px;
+    margin: 20px;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 3%;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Spartan', sans-serif;
+    font-size: 11px;
+}
+.buyerImage{
+    float: left;
+    border-radius: 50%;
+    margin-right: 15px;   
+}
+.buyerInfo{
+    font-weight: 400;
+    line-height: 0.5cm;
+}
+.nameWithImage{
+    margin-bottom: 10px; 
+    padding-bottom: 5px;
+}
+.buyerNAME{
+    margin-bottom: 2px; 
+    font-weight: 700;
+}
+.verifiedBuyer{
+    margin-top: 0; 
+    color: hsl(333, 80%, 67%);
+}
+#card2{
+    margin-top: 30px;
+}
+#card3{
+    margin-top: 40px;
+}
+
+
+
+
+
+
+@media (max-width: 900px){
+    body{
+        text-align: center;
+       
+    }
+    .review ,.buyerInfo, .buyerNAME, .verifiedBuyer{
+        font-size: 8px;
+    }
+    .flexContainer1 {
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        margin: 10px;
+        padding: 10px;
+    }
+    .flexContainer2{
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 10px;
+        padding: 10px;
+    }
+    #rate1, #rate2, #rate3{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #star1{
+        margin-left: 2px;
+    }
+    #star2{
+        margin-right: 2px;
+    }
+    .review{
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
